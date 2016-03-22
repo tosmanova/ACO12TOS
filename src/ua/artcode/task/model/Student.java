@@ -9,7 +9,7 @@ public class Student {
     private String phone;
     private String email;
 
-    private MyDate myDate = new MyDate();
+    private MyDate myDate ;
     private double paidMoney;
 
     private String city;
