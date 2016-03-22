@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d004e15b-f7e2-44f5-b238-14bde90ec2b2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/artcode/home/week1/model/MyArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/artcode/home/week1/model/myDigit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/artcode/home/week1/tests/MyArrayTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/artcode/home/week1/utils/ArrayUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ACO12/ua/artcode/task/model/MyDate.class" afterPath="$PROJECT_DIR$/out/production/ACO12/ua/artcode/task/model/MyDate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ACO12/ua/artcode/task/model/Student.class" afterPath="$PROJECT_DIR$/out/production/ACO12/ua/artcode/task/model/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ACO12/ua/artcode/task/test/TestStudent.class" afterPath="$PROJECT_DIR$/out/production/ACO12/ua/artcode/task/test/TestStudent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ACO12/ua/artcode/task/utils/StudentUtils.class" afterPath="$PROJECT_DIR$/out/production/ACO12/ua/artcode/task/utils/StudentUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/artcode/task/model/Student.java" afterPath="$PROJECT_DIR$/src/ua/artcode/task/model/Student.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/artcode/home/week1/model/MyArray.java" afterPath="$PROJECT_DIR$/src/ua/artcode/home/week1/model/MyArray.java" />
     </list>
     <ignored path="ACO12.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,18 +33,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyArray.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ua/artcode/home/week1/model/MyArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.5137157">
+              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="39" />
               <folding>
                 <element signature="e#130#131#0" expanded="true" />
                 <element signature="e#160#161#0" expanded="true" />
                 <element signature="e#205#206#0" expanded="true" />
                 <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#1153#1154#0" expanded="true" />
-                <element signature="e#1204#1205#0" expanded="true" />
+                <element signature="e#1168#1169#0" expanded="true" />
+                <element signature="e#1219#1220#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyArrayTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyArrayTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/artcode/home/week1/tests/MyArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29925188">
+            <state vertical-scroll-proportion="0.0">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="e#192#193#0" expanded="true" />
@@ -119,8 +111,8 @@
         <option value="$PROJECT_DIR$/src/ua/artcode/home/week1/utils/ArrayUtils.java" />
         <option value="$PROJECT_DIR$/src/ua/artcode/home/week1/model/myDigit.java" />
         <option value="$PROJECT_DIR$/src/ua/artcode/task/model/Student.java" />
-        <option value="$PROJECT_DIR$/src/ua/artcode/home/week1/model/MyArray.java" />
         <option value="$PROJECT_DIR$/src/ua/artcode/home/week1/tests/MyArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/ua/artcode/home/week1/model/MyArray.java" />
       </list>
     </option>
   </component>
@@ -890,12 +882,19 @@
       <updated>1458393245589</updated>
       <workItem from="1458393253562" duration="15468000" />
       <workItem from="1458563593042" duration="7586000" />
-      <workItem from="1458635377023" duration="5107000" />
+      <workItem from="1458635377023" duration="5290000" />
     </task>
+    <task id="LOCAL-00001" summary="Added MyArray.class">
+      <created>1458666457949</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1458666457949</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28161000" />
+    <option name="totallyTimeSpent" value="28344000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -908,7 +907,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="731" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -916,7 +915,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -946,6 +945,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added MyArray.class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added MyArray.class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1037,26 +1040,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/artcode/home/week1/model/MyArray.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/artcode/home/week1/tests/MyArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/artcode/home/week1/utils/ArrayUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,13 +1059,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/artcode/home/week1/tests/MyArrayTest.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/artcode/home/week1/utils/ArrayUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29925188">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/artcode/home/week1/model/MyArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5137157">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="39" />
           <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
           </folding>
         </state>
       </provider>

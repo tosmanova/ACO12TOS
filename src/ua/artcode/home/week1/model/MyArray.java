@@ -37,10 +37,10 @@ public class MyArray {
         return minElement;
     }
 
-    public static int getMaximumNumberOfArray(int[] nums){
-        int maxElement = nums[0];
-        for (int i = 0; i <nums.length; i++) {
-            maxElement = (nums[i]>=maxElement?nums[i]:maxElement);
+    public int getMaximumNumberOfArray(){
+        int maxElement = this.myArray[0];
+        for (int i = 0; i <this.myArray.length; i++) {
+            maxElement = (this.myArray[i]>=maxElement?this.myArray[i]:maxElement);
         }
         return maxElement;
     }
