@@ -7,7 +7,7 @@ import java.util.Arrays;
  */
 public class Reader extends Person {
     private int readerId;
-    private Book[] books;
+    private Book[] books = new Book[0];
     private boolean isInBlackList;
 
     public Reader(Person person, int readerId) {
@@ -46,5 +46,13 @@ public class Reader extends Person {
                 ", readerId=" + readerId +
                 ", books=" + Arrays.toString(books) +
                 '}';
+    }
+
+    public void addBook(Book book){
+        Book[] newBooks = new Book[books.length +1];
+        System.arraycopy(books,0,newBooks,0,books.length);
+        newBooks[newBooks.length-1] = book;
+
+        System.out.println("Book [" + book + "] added." );
     }
 }
