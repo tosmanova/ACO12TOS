@@ -13,7 +13,7 @@ public class LibraryTest {
         Person p1 = new Person("Karas", "Ivan");
         Person p2 = new Person("Tester", "Sanyok");
 
-        Library library = new Library("Chitalnya");
+        Library library = new Library("Chitalnya",3);
         Reader r1 = library.registerReader(p1);
         Reader r2 = library.registerReader(p2);
 
@@ -22,6 +22,16 @@ public class LibraryTest {
         library.addBook(book1);
         library.addBook(new Book("T2",1979,"Test"));
 
+        //show all available books
+        System.out.println(library.showAvailableBooks());
         library.borrowBook(book1,r1);
+
+
+    }
+
+    public void showBooksByAuthorTest(Library library, String author){
+
+        library.showBooksByAuthor();
+
     }
 }
