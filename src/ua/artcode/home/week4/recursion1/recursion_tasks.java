@@ -37,18 +37,50 @@ public class recursion_tasks {
     }
 
     public int bunnyEars2(int bunnies) {
+        int result = 0;
         if (bunnies == 0) {
-            return 0;
+            result = 0;
         } else if (bunnies == 1) {
-            return 2;
+            result = 2;
         }
-        if (bunnies % 2 == 0) {
-            return 3 + bunnyEars2(bunnies - 1);
-        } else {
-            return 2 + bunnyEars2(bunnies - 1);
-        }
-
+        result = (bunnies % 2 == 0) ? (3 + bunnyEars2(bunnies - 1)) : (2 + bunnyEars2(bunnies - 1));
+        return result;
     }
-    
+
+    public int triangle(int rows) {
+        if (rows == 0) {
+            return 0;
+        } else {
+            return rows + (triangle(rows - 1));
+        }
+    }
+
+    public int sumDigits(int n) {
+        /*if (n == 0) {
+            return 0;
+        } else {
+            return n % 10 + sumDigits(n / 10);
+        }*/
+        return (n == 0) ? 0 : n % 10 + sumDigits(n / 10);
+    }
+
+    public int count7(int n) {
+        int is7 = (n % 10 == 7) ? 1 : 0;
+        return (n == 0) ? 0 : is7 + count7(n / 10);
+    }
+
+    public int count8(int n) {
+        int is8 = (n % 10 == 8) ? 1 : 0;
+        int is88 = (n % 100 == 88) ? 2 : 0;
+        return (n == 0) ? 0 : ((is88 == 2) ? is88 + count8(n / 10) : is8 + count8(n / 10));
+    }
+
+    public int powerN(int base, int n) {
+        if (n == 1) {
+            return base;
+        } else {
+            return base * powerN(base, n - 1);
+        }
+    }
 
 }
