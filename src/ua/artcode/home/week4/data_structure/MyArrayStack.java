@@ -1,6 +1,7 @@
 package ua.artcode.home.week4.data_structure;
 
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 import java.util.Spliterator;
 import java.util.function.Consumer;
 
@@ -62,19 +63,19 @@ public class MyArrayStack implements Iterable, MyStack {
 
     private class MyIterator implements Iterator {
 
-        private int index;
+        private int index = -1;
 
         @Override
         public Object next() {
-            int nextIndex = ++index;
-            index = nextIndex;
-            return mas[nextIndex];
-
+            if (index >= top) {
+                throw new NoSuchElementException();
+            }
+            return mas[++index];
         }
 
         @Override
         public boolean hasNext() {
-            return next() != null;
+            return index < top - 1;
         }
     }
 }
